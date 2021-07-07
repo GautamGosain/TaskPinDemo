@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TaskPin</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container">
+                <a href="index.html" class="NAVBAR navbar-brand">TaskPin</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                       <!-- <li class="nav-item">
+                            <a href="task.html" class="nav-link">Tasks</a>
+                        </li>-->
+                        <li class="nav-item align-self-right">
+                            <a href="login.html" class="nav-link">Login</a>
+                        </li>
+                        <li class="nav-item LIST">
+                            <a href="signup.html" class="nav-link">SignUp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="showcase">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item drk carousel-image-1 active">
+                        <div class="container">
+                            <div class="text-primary carousel-caption d-none d-sm-block text-start mb-5">
+                                <h1 class="display-3 carousel-caption text-start">Heading</h1>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item drk carousel-image-2">
+                        <div class="container">
+                            <div class="text-primary carousel-caption d-none d-sm-block text-center mb-5">
+                                <h1 class="display-3 carousel-caption text-center">Heading</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item drk carousel-image-3">
+                        <div class="container">
+                            <div class="text-primary carousel-caption d-none d-sm-block text-end mb-5">
+                                <h1 class="display-3 carousel-caption text-end">Heading</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                -->
+            </div>
+        </section>
+
+        <footer class="bg-dark text-center footer fixed-bottom">
+            <div class="text-center p-3 text-light">
+               Copyright © <span id="year"></span>
+              <span class="text-light"> TaskPin</span>
+            </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script>
+            $('#year').text(new Date().getFullYear());
+        </script>
+    </body>
+</html>
