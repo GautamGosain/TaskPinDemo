@@ -38,9 +38,9 @@ body {
     position:relative;
     background: url(/img/back8.jfif);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 70% center;
     width:100%;
-    min-height: 800px;
+    min-height: 820px;
     background-size: cover;
     
 }
@@ -78,7 +78,7 @@ body {
   }
 
   .Quote {
-    margin-top: 250px;
+    margin-top: 200px;
     font-size: 65px;
     font-weight: 500;
 }
