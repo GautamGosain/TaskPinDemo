@@ -36,11 +36,11 @@ body {
 #showcase{
     top:0;
     position:relative;
-    background: url(/img/back7.jpg);
+    background: url(/img/back8.jfif);
     background-repeat: no-repeat;
     background-position: center center;
     width:100%;
-    min-height: 730px;
+    min-height: 800px;
     background-size: cover;
     
 }
