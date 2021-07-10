@@ -28,10 +28,6 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
   }
 
-  .overlay-black {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-
 
 .NAVBAR {
     font-size: 36px;
@@ -40,11 +36,11 @@ body {
 #showcase{
     top:0;
     position:relative;
-    background: url(/img/back5.jpg);
+    background: url(/img/back7.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     width:100%;
-    min-height: 800px;
+    min-height: 730px;
     background-size: cover;
     
 }
@@ -82,16 +78,16 @@ body {
   }
 
   .Quote {
-    margin-top: 200px;
+    margin-top: 250px;
     font-size: 65px;
     font-weight: 500;
 }
 
 .about-img {
-    max-height: 350px;
-    max-width:350px;
+    max-height: 250px;
+    max-width:250px;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top:80px;
 }
 
 .whatwedo {
@@ -100,7 +96,7 @@ body {
 
 .TEXT {
     font-size: 20px;
-    color: #33a4ff;
+    color: #fff;
 }
 
 .HEAD{
